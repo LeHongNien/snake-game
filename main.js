@@ -18,7 +18,7 @@ var debug = {
     var anim;
   
     document.addEventListener('endGame', function endGameHandler(e) {
-      msg.innerHTML = 'Game Over! Press Space to start a new game'
+      msg.innerHTML = "Game Over! Press 'Space' to start a new game"
       gameOn = 0;
       window.cancelAnimationFrame(anim);
       clearInterval(interval);
