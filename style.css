@@ -1,3 +1,8 @@
+@font-face {
+    font-family: BlockStockRegular;
+    src: url(BlockStockRegular-A71p.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +13,7 @@
     margin-top: 20px;
 }
 h1{
+    font-family: BlocStockRegular;
     font-size: 56px;
 } 
 p{
