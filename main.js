@@ -8,10 +8,9 @@ var debug = {
     var msg         = document.getElementById('msg');
     var actualScore = document.getElementById('actual-score');
     var bestScore   = document.getElementById('best-score');
-    var countFPS    = document.getElementById('count-fps');
     var ctx         = canvas.getContext("2d");
     var gameOn      = 0;
-    var speed       = 2;
+    var speed       = 1;
     var endGame     = new Event('endGame');
     var scores      = createScores();
     var interval;
@@ -41,7 +40,6 @@ var debug = {
       var food = createFood(canvas.width, canvas.height, "#EDE916");
       var candy = createCandy(canvas.width, canvas.height)
       var nextDir = '';
-      var fps = 0;
       
       scores.start();
   
@@ -73,7 +71,6 @@ var debug = {
         }
       }
       function play() {
-        fps++;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         if ((snake.x[0] % 10 === 0) && (snake.y[0] % 10 === 0)) {
           snake.update();
@@ -112,10 +109,6 @@ var debug = {
         debug.y = snake.y;
         debug.food = [food.x, food.y];
       }
-      interval = setInterval(function() {
-        countFPS.innerText = ''+ fps;
-        fps = 0;
-      }, 1000);
   
       food.spawn(snake.x, snake.y);
       anim = window.requestAnimationFrame(play);
