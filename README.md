@@ -10,8 +10,8 @@ Favourite game I played on my very first phone
 
 ### Changes I plan to implement in the near future
 
-1. Increasing speed over time
+1. Increase speed over time
 
-2. Customizable design for snake, food etc.
+2. Customizable design for snake, food etc
 
 3. High-score saving system (As of now, have not learned data storing)
