@@ -14,6 +14,8 @@ Click to play: https://lehongnien.github.io/snake-game/
 
 1. Increase speed over time
 
-2. Customizable design for snake, food etc
+2. Different difficulty modes for a challenge
 
-3. High-score saving system (As of now, have not learned data storing)
+3. Customizable design for snake, food etc
+
+4. High-score saving system
