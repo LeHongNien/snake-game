@@ -10,7 +10,7 @@ var debug = {
     var bestScore   = document.getElementById('best-score');
     var ctx         = canvas.getContext("2d");
     var gameOn      = 0;
-    var speed       = 1;
+    var speed       = 1.2;
     var endGame     = new Event('endGame');
     var scores      = createScores();
     var interval;
