@@ -8,9 +8,9 @@ Favourite game I played on my very first phone
 
 3. Colide into walls or body = GAME OVER!
 
-### Changes I might do in the future
+### Changes I plan to implement in the near future
 
-1. Different difficulty levels
+1. Increasing speed over time
 
 2. Customizable design for snake, food etc.
 
