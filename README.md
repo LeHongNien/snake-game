@@ -1,6 +1,8 @@
 # Snake Game
 Favourite game I played on my very first phone
 
+Click to play: https://lehongnien.github.io/snake-game/
+
 ## Quick-Read
 1. W-A-S-D keys
 
